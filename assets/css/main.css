@@ -665,7 +665,7 @@ span.swirl-left {
 span.swirl-right {
     display: inline-block;
     background: url(../img/swirl-right.png) no-repeat right;
-    padding: 10px 130px 10px 0px;
+    padding: 0px 130px 10px 0px;
 }
 
 .title-under {
@@ -2247,6 +2247,27 @@ a.btn.btn-border-white:focus {
     .flip-clock-wrapper {
         max-width: 295px;
     }
+}
+
+.button-space {
+    margin: 15px 0 !important;
+}
+
+#countdown {
+    margin: 25px auto;
+}
+
+body {
+    background-image: url("/assets/img/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-overlay {
+    background-color: #00000082;
+    height: 100vh;
+    width: 100vw;
 }
 
 /***********************************

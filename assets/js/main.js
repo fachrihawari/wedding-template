@@ -46,14 +46,14 @@ $(document).ready(function () {
 
     //var ts = new Date(2019, 6, 22, 21, 30, 0);
     //var ts = +new Date("June 29, 2019 07:00 GMT");
-    var ts = new Date("July 25, 2020 10:00:00");
+    var ts = new Date("June 26, 2021 09:00:00");
     // var ts = new Date("June 24, 2019 10:35:00");
     var date_now = new Date();
     var seconds = Math.floor((ts - (date_now)) / 1000);
-    console.log(date_now);
-    clock.setTime(seconds);
-    clock.setCountdown(true);
-    clock.start();
-
+    if (date_now < ts) {
+        clock.setTime(seconds);
+        clock.setCountdown(true);
+        clock.start();
+    }
     /*========== Countdown end ================*/
 }); 
