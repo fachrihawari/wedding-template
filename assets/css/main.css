@@ -2264,6 +2264,13 @@ body {
     background-attachment: fixed;
 }
 
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .page-overlay {
     background-color: #00000082;
     height: 100vh;

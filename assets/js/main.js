@@ -24,7 +24,6 @@ $(window).on('load', function () {
 $(document).ready(function () {
     "use strict";
 
-    $("#bgvideo").YTPlayer();
     var $tfront = $(".title-front").hide();
     var $tunder = $(".title-under").hide();
     $tfront.show().arctext({ radius: 250 });
