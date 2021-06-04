@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "dwiboim"
+    "default": "myapp-testing-8c059"
+  },
+  "targets": {
+    "myapp-testing-8c059": {
+      "hosting": {
+        "dwiboim": [
+          "dwiboim"
+        ]
+      }
+    }
   }
 }
